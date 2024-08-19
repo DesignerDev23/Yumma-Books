@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "yumma-books",
+    "name": "yumma books",
     "slug": "yumma-books",
-    "version": "1.0.0",
+    "version": "1.0.6",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -16,12 +16,23 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.designer.dev23.yummabooks",
+      "versionCode": 6
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "598b9394-9066-4f0f-b3b6-9db82b232969"
+      }
+    },
+    "owner": "designer.dev23"
   }
 }
